@@ -1,5 +1,5 @@
 {
-  "name": "full-stack",
+  "name": "cdk-test",
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",

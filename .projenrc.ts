@@ -1,7 +1,7 @@
 import { typescript } from 'projen';
 const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: 'main',
-  name: 'full-stack',
+  name: 'cdk-test',
   projenrcTs: true,
 
   // deps: [],                /* Runtime dependencies of this module. */

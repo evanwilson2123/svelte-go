@@ -1,5 +1,5 @@
 {
-  "name": "cdk-test",
+  "name": "infra",
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",

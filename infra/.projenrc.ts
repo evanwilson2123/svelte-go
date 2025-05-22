@@ -1,8 +1,8 @@
-import { awscdk } from 'projen';
+import { awscdk } from "projen";
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '2.1.0',
-  defaultReleaseBranch: 'main',
-  name: 'cdk-test',
+  cdkVersion: "2.1.0",
+  defaultReleaseBranch: "main",
+  name: "infra",
   projenrcTs: true,
 
   // deps: [],                /* Runtime dependencies of this module. */

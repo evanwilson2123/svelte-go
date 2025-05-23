@@ -15,6 +15,7 @@ func main() {
 	*/
 	mux.HandleFunc("/", handlers.RootHandler)
 	mux.HandleFunc("/start-reflecting", handlers.SignInHandler)
+	mux.HandleFunc("/users", handlers.UserHandler)
 
 	// wrap the server in the cors middleware
 	handler := middleware.CorsMiddleware(mux)

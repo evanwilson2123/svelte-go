@@ -14,6 +14,7 @@
         });
 
         if (res.ok) {
+            console.log(JSON.stringify(await res.json()));
             goto('/dash');
         } else {
             const result = await res.json();

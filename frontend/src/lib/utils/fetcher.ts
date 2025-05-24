@@ -1,6 +1,4 @@
-import type { DailyQuote } from '$lib/types/types';
-
-export async function fetcher(url?: string): Promise<DailyQuote | null> {
+export async function fetcher<T>(url?: string): Promise<T | null> {
 	try {
 		const res = await fetch(`${import.meta.env.VITE_BASE_API}${url}`);
 		return await res.json();
